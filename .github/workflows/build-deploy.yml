@@ -1,0 +1,27 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: react github
+
+on:
+
+  push:
+    branches: 
+       - "master"
+
+
+jobs:
+ 
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install & build
+        run: npm i && npm run build
+     
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: dist
