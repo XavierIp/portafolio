@@ -7,10 +7,8 @@ export default function menu() {
    
 
     return (
-
-      <Navbar shouldHideOnScroll>
+<Navbar>
       <NavbarBrand>
-      
         <p className="font-bold text-inherit">Xavier</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
@@ -31,12 +29,16 @@ export default function menu() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        
+        <NavbarItem className="hidden lg:flex">
+          <Link href="#">Login</Link>
+        </NavbarItem>
         <NavbarItem>
-        <Mdoscuro/>
+         <Mdoscuro/>
         </NavbarItem>
       </NavbarContent>
     </Navbar>
+
+ 
 
 
  
