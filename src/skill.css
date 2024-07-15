@@ -1,0 +1,55 @@
+@import "../src/index.css";
+
+/************ Skills Css ************/
+.h2skil{
+    color: aliceblue;
+}
+.containerskill{
+   
+
+  
+    max-width: 95%; 
+   
+}
+.radial-progress {
+  color: aqua;
+}
+.skill {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+    padding: 0 0 0 0;
+    position: relative;
+  }
+  .skill-bx {
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 33px;
+
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+  }
+  .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item .radial-progress {
+    margin: 0 auto 15px auto;
+  }
+  .h5{
+    font-size: 25px;
+    color: #a281ee;
+  }
+ 

@@ -1,0 +1,32 @@
+@import "../src/index.css";
+.seccion{
+    color: aliceblue;
+    position: relative;
+    background-color: #151515;
+    border-radius: 80px;
+    padding: 73px;
+   
+    z-index: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 60px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seccionImg{
+    width: 150%;
+}
+@media screen and (max-width:830px){
+    .seccionImg{
+       display: none;
+    }
+    .seccion{
+   
+        margin-top: 60px;
+    }
+}

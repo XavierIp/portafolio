@@ -1,0 +1,97 @@
+{
+  "hash": "857724dd",
+  "configHash": "43811e53",
+  "lockfileHash": "0e83726a",
+  "browserHash": "26475e10",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "1465e213",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "5955ab81",
+      "needsInterop": true
+    },
+    "react/jsx-runtime": {
+      "src": "../../node_modules/react/jsx-runtime.js",
+      "file": "react_jsx-runtime.js",
+      "fileHash": "65d792ad",
+      "needsInterop": true
+    },
+    "@nextui-org/react": {
+      "src": "../../node_modules/@nextui-org/react/dist/index.mjs",
+      "file": "@nextui-org_react.js",
+      "fileHash": "894bbab4",
+      "needsInterop": false
+    },
+    "canvas-confetti": {
+      "src": "../../node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "e8a1d0ec",
+      "needsInterop": false
+    },
+    "lottie-react": {
+      "src": "../../node_modules/lottie-react/build/index.es.js",
+      "file": "lottie-react.js",
+      "fileHash": "494c1791",
+      "needsInterop": false
+    },
+    "mdb-react-ui-kit": {
+      "src": "../../node_modules/mdb-react-ui-kit/dist/mdb-react-ui-kit.esm.js",
+      "file": "mdb-react-ui-kit.js",
+      "fileHash": "7a267a49",
+      "needsInterop": false
+    },
+    "next-themes": {
+      "src": "../../node_modules/next-themes/dist/index.mjs",
+      "file": "next-themes.js",
+      "fileHash": "bd394cc3",
+      "needsInterop": false
+    },
+    "postcss": {
+      "src": "../../node_modules/postcss/lib/postcss.mjs",
+      "file": "postcss.js",
+      "fileHash": "0a42d06e",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ece94a8e",
+      "needsInterop": true
+    },
+    "react-multi-carousel": {
+      "src": "../../node_modules/react-multi-carousel/index.js",
+      "file": "react-multi-carousel.js",
+      "fileHash": "4330109b",
+      "needsInterop": true
+    },
+    "typeit": {
+      "src": "../../node_modules/typeit/dist/index.es.js",
+      "file": "typeit.js",
+      "fileHash": "c7f70438",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-U7IZROIP": {
+      "file": "chunk-U7IZROIP.js"
+    },
+    "chunk-II2YIXPO": {
+      "file": "chunk-II2YIXPO.js"
+    },
+    "chunk-CVBOB4BE": {
+      "file": "chunk-CVBOB4BE.js"
+    },
+    "chunk-WN3324PX": {
+      "file": "chunk-WN3324PX.js"
+    },
+    "chunk-VTIE7EHC": {
+      "file": "chunk-VTIE7EHC.js"
+    }
+  }
+}

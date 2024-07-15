@@ -1,0 +1,124 @@
+@import "../src/index.css";
+*{scroll-behavior: smooth;}
+.top{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#a502f1;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.contenedor{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+.contenido{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ color:var(--color-text) ;
+ z-index: 1;
+}
+.titulo{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+
+}
+.descripcion{
+    font-size: 25px;
+    font-family:var(--font-roboto);
+    margin-bottom: 52px;
+}
+.botones{
+    display: flex; 
+    gap: 20px;
+}
+.contacto{
+text-decoration: none;
+background-color: rgb(6, 203, 52);
+border-radius: 80px;
+font-size: 25px;
+font-weight: 600;
+padding: 17px 26px;
+box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+}
+.descarga{
+    text-decoration: none;
+    background-color: rgb(67, 54, 187);
+    border-radius: 80px;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+    }
+.imgbanner{
+  width: 45%;
+  z-index: 1;
+
+  animation-name:floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+    }
+    @keyframes floating {
+        0%{
+            transform: translate(0,0px);
+        }
+        50%{
+            transform: translate(0,10px);
+        }
+        100%{
+            transform: translate(0,-0px);
+        }
+    }
+   @media screen and (max-width: 830px) {
+   .contenedor{
+    flex-direction: column-reverse;
+    padding: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+   }
+.contenido{
+   
+    align-items: center;
+   
+    
+}
+.imgbanner{
+    width: 85%;
+
+      }
+.titulo{
+    font-size: 35px;
+}
+.descripcion{
+    font-size: 20px;
+
+}
+.contacto{
+ 
+    font-size: 18px;
+
+    }
+    .descarga{
+      
+        font-size: 18px;
+     
+        }
+}

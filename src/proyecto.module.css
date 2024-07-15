@@ -1,0 +1,19 @@
+@import "../src/index.css";
+.seccion{
+    color: aliceblue;
+    position: relative;
+    background-color: #151515;
+    border-radius: 80px;
+    padding: 73px;
+   
+    z-index: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+   
+}
+.seccion h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
