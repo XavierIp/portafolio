@@ -29,4 +29,8 @@
    
         margin-top: 123px;
     }
+}@media screen and (max-width: 400px) {
+    .seccion {
+        margin-top: -10px;
+    }
 }
