@@ -1,7 +1,7 @@
 import React,{useEffect,useRef } from "react";
 import Styles from '../../src/App.module.css';
 import imgBanner from "./img/banner.png";
-import pdf from "./img/CV_IBARRA.pdf";
+import pdf from "./img/CV_IBARRAIB.pdf";
 import TypeIt from "typeit";
 export default function banner() {
   const top=()=>{
